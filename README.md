@@ -6,7 +6,7 @@ Here are some ideas to get you started:
 -->
 ## About me🚀
 - 🔭 I’m currently working on XieChuangData in ShangHai.
-- 🌱 I’m currently learning python,flutter,autjs,crawler.
+- 🌱 I’m currently learning python,flutter,autojs,crawler.
 - 👯 I’m looking to collaborate on monitising.
 - 🤔 I’m looking for help with building compony.
 - 💬 Ask me about android tech
