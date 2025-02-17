@@ -19,7 +19,7 @@ Here are some ideas to get you started:
   <br> **Backend**: `Python`, `NodeJs`, `C/C++`, `PHP`
   <br> **Frontend**: 🚀App : `Java`, `Kotlin`, `Flutter/dart`, `Kotlin crossplatform` , 🚀 Web: `Html/javascript`, `Vue`, 
 - 🚀 Project Focus :
-  <br> Android app developing, Multi-media developing, data-ming.
+  <br> Android app developing, Multi-media developing, data-mining.
 
 ## Contribution Grid Snake 🐍:
 ![github-contribution-grid-snake](https://github.com/linjonh/linjonh/blob/main/github-contribution-grid-snake.svg)
