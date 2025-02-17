@@ -1,18 +1,25 @@
 ## Hi there 👋
 
-<!--
-**linjonh/linjonh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<!--**linjonh/linjonh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
 -->
+## About me🚀
+- 🔭 I’m currently working on XieChuangData in ShangHai.
+- 🌱 I’m currently learning python,flutter,autjs,crawler.
+- 👯 I’m looking to collaborate on monitising.
+- 🤔 I’m looking for help with building compony.
+- 💬 Ask me about android tech
+- 📫 How to reach me: By Email📪: jaysen.lin@foxmail.com
+
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)](https://linjonh.github.io/TechBlog/)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=linjonh&theme=radica&layout=compact&hide=html,JavaScript)](https://linjonh.github.io/TechBlog/)
+
+- 💻 Core Skills : asynchronous programming, reverse engineering, data-mining, scawler , Android APP.
+  <br> **Backend**: `Python`, `NodeJs`, `C/C++`, `PHP`
+  <br> **Frontend**: 🚀App : `Java`, `Kotlin`, `Flutter/dart`, `Kotlin crossplatform` , 🚀 Web: `Html/javascript`, `Vue`, 
+- 🚀 Project Focus :
+  <br> Android app developing, Multi-media developing, data-ming.
+
+## Contribution Grid Snake 🐍:
+![github-contribution-grid-snake](https://github.com/linjonh/linjonh/blob/main/images/github-contribution-grid-snake.svg)
