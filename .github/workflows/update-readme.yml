@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           persist-credentials: false  # 关闭默认凭证（避免冲突）
           
@@ -25,6 +25,8 @@ jobs:
                | jq '.count' > views.txt
           sed -i "s/<!-- VIEWS -->/$(cat views.txt)/g" README.md
       - name: Commit changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
