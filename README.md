@@ -22,4 +22,4 @@ Here are some ideas to get you started:
   <br> Android app developing, Multi-media developing, data-mining.
 
 ## Contribution Grid Snake 🐍:
-![github-contribution-grid-snake](https://github.com/linjonh/linjonh/blob/main/github-contribution-grid-snake.svg)
+[![github-contribution-grid-snake](https://github.com/linjonh/linjonh/blob/main/github-contribution-grid-snake.svg)](https://linjonh.github.io/TechBlog/)
