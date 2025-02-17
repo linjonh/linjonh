@@ -23,3 +23,7 @@ Here are some ideas to get you started:
 
 ## Contribution Grid Snake 🐍:
 [![github-contribution-grid-snake](https://github.com/linjonh/linjonh/blob/main/github-contribution-grid-snake.svg)](https://linjonh.github.io/TechBlog/)
+
+### 访客统计
+![Profile Views](https://komarev.com/ghpvc/?username=linjonh&color=blue)
+个人主页已被访问 **<!-- VIEWS -->** 次！
