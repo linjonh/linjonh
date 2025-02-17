@@ -26,6 +26,6 @@ Here are some ideas to get you started:
 
 ### 访客统计
 ![Profile Views](https://komarev.com/ghpvc/?username=linjonh&color=blue)
-- 总访问量: **<!-- VIEWS -->** 次
-- 唯一访客: **<!-- UNIQUES -->** 人
+- 总访问量: **null** 次
+- 唯一访客: **null** 人
 
