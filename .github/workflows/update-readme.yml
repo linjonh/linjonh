@@ -5,44 +5,60 @@ on:
       - main
   schedule:
     - cron: "0 0 * * *"  # 每天运行一次
+
 permissions:
-  contents: write  # 赋予 GITHUB_TOKEN 写入权限
-  
+  contents: write  # 允许写入权限
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          persist-credentials: false  # 关闭默认凭证（避免冲突）
-          
-      - name: Fetch and Print Traffic Data &  Update README
+          persist-credentials: false  # 禁用默认的 GitHub 凭证，避免冲突
+
+      - name: Fetch and Print Traffic Data
         run: |
+          # 获取流量数据并保存到文件
           curl -H "Accept: application/vnd.github.v3+json" \
                -H "Authorization: token ${{ secrets.PERSONAL_ACCESS_TOKEN }}" \
                https://api.github.com/repos/linjonh/linjonh/traffic/views \
                | tee traffic_data.json
-          
+
+          # 打印所有流量数据
           echo "GitHub Traffic Data:"
           cat traffic_data.json
-          
+
+          # 提取总访问量和唯一访客数
           VIEWS=$(jq '.count' traffic_data.json)
           UNIQUES=$(jq '.uniques' traffic_data.json)
-          rm -r traffic_data.json
+
           echo "Total Views: $VIEWS"
           echo "Unique Visitors: $UNIQUES"
 
+          # 更新 README.md 中的占位符
           sed -i "s/<!-- VIEWS -->/$VIEWS/g" README.md
           sed -i "s/<!-- UNIQUES -->/$UNIQUES/g" README.md
 
-      - name: Commit changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # 删除临时文件
+          rm traffic_data.json
+
+      - name: Check if README.md is updated
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "Auto Updated views count"
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/linjonh/linjonh.git
-          git push origin main
+          # 检查 README.md 是否有变化
+          git diff --exit-code README.md || echo "README.md has been updated"
+
+      - name: Commit changes if needed
+        run: |
+          # 只有在 README.md 文件有变化时，才提交更改
+          if git diff --exit-code README.md; then
+            echo "No changes to commit."
+          else
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "Auto updated views and uniques count"
+            git push origin main
+          fi
