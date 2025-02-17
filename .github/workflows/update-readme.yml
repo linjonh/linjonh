@@ -17,13 +17,25 @@ jobs:
         with:
           persist-credentials: false  # 关闭默认凭证（避免冲突）
           
-      - name: Update README
+      - name: Fetch and Print Traffic Data &  Update README
         run: |
           curl -H "Accept: application/vnd.github.v3+json" \
                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                https://api.github.com/repos/linjonh/linjonh/traffic/views \
-               | jq '.count' > views.txt
-          sed -i "s/<!-- VIEWS -->/$(cat views.txt)/g" README.md
+               | tee traffic_data.json
+          
+          echo "GitHub Traffic Data:"
+          cat traffic_data.json
+          
+          VIEWS=$(jq '.count' traffic_data.json)
+          UNIQUES=$(jq '.uniques' traffic_data.json)
+          
+          echo "Total Views: $VIEWS"
+          echo "Unique Visitors: $UNIQUES"
+
+          sed -i "s/<!-- VIEWS -->/$VIEWS/g" README.md
+          sed -i "s/<!-- UNIQUES -->/$UNIQUES/g" README.md
+
       - name: Commit changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
