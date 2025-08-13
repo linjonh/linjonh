@@ -27,6 +27,7 @@ Here are some ideas to get you started:
 ## Next.js course
 ![](https://nextjs.org/_next/image?url=%2Fapi%2Flearn-certificate-og%3Fcourse%3Dreact-foundations%26user%3D88856%26mode%3Ddark%26name%3D%E6%9E%97%E5%BB%BA%E6%9C%89&w=1920&q=75)
 ![](https://nextjs.org/_next/image?url=%2Fapi%2Flearn-certificate-og%3Fcourse%3Ddashboard-app%26user%3D88856%26mode%3Dsystem%26name%3D%E6%9E%97%E5%BB%BA%E6%9C%89&w=1920&q=75)
+![](https://nextjs.org/_next/image?url=%2Fapi%2Flearn-certificate-og%3Fcourse%3Dpages-router%26user%3D88856%26mode%3Ddark%26name%3D%E6%9E%97%E5%BB%BA%E6%9C%89&w=1920&q=75)
 ### 访客统计
 ![Profile Views](https://komarev.com/ghpvc/?username=linjonh&color=blue)
 ![Video-Hub.douyin-api](https://visitor-badge.laobi.icu/badge?page_id=Video-Hub.douyin-api)
