@@ -4,6 +4,20 @@
 
 Here are some ideas to get you started:
 -->
+## 学习网站 
+<ol> 
+<li>AI 学习中文网：https://pytorch-tutorial.web.app </li>
+<li>技术博客：https://tech-blogs.web.app</li>
+<li>deepseeksblog：https://deepseeksblog.web.app</li>
+<li>网页技术TailwindCss https://tailwindcss.codelin.vip</li>
+<li>ICloud网盘替代方案：https://immich-doc.web.app</li>
+<li>FFmpeg中文网：https://ffmpeg-doc.web.app</li>
+<li>openWebUI多国语言docs：https://openwebui-three.vercel.app</li>
+<li>谷歌Chrome js引擎（V8 engine）：https://v8-script-engine.vercel.app</li>
+<li>Java版本Js引擎：https://rhino-doc.web.app</li>
+<li>短视频无水印下载网站：https://vidl.web.app</li>
+</ol>
+
 ## About me🚀
 - 🔭 I’m currently working on XieChuangData in ShangHai.
 - 🌱 I’m currently learning python,flutter,autojs,crawler.
