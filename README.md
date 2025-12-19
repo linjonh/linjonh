@@ -18,6 +18,12 @@ Here are some ideas to get you started:
 <li>短视频无水印下载网站：https://vidl.web.app</li>
 </ol>
 
+## 好用的微信小程序🚀
+
+<img src="./mini_app.jpg" alt="微信小程序" style="width:200px;height:200px;" />
+
+
+
 ## About me🚀
 - 🔭 I’m currently working on XieChuangData in ShangHai.
 - 🌱 I’m good at android, java, python, flutter, nodejs, nextjs, Vue, autojs, crawler.
