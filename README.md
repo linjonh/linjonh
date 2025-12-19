@@ -20,7 +20,7 @@ Here are some ideas to get you started:
 
 ## About me🚀
 - 🔭 I’m currently working on XieChuangData in ShangHai.
-- 🌱 I’m currently learning python,flutter,autojs,crawler.
+- 🌱 I’m good at python,flutter,nodejs,nextjs,Vue,autojs,crawler.
 - 👯 I’m looking to collaborate on monitising.
 - 🤔 I’m looking for help with building compony.
 - 💬 Ask me about android tech
